@@ -1,0 +1,10 @@
+.svelte-kit/**
+.netlify/**
+build/**
+static/**
+functions/**
+node_modules/**
+.env
+.vscode/**
+/*.config.js
+pnpm-lock.yaml

@@ -1,0 +1,28 @@
+{
+  "baseUrl": "app/javascript",
+  "compilerOptions": {
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["es6", "dom"],
+    "module": "es6",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "target": "es5",
+    "jsx": "react",
+    "noEmit": true
+  },
+  "exclude": [
+    "**/*.spec.ts",
+    "node_modules",
+    "vendor",
+    "public"
+  ],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "app/javascript/"
+  ],
+  "compileOnSave": false
+}

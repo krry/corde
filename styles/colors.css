@@ -1,0 +1,19 @@
+:root {
+	// COLORS
+	--black: #0f0f0f;
+	--white: #f0f0f0;
+	--black-extra: #000;
+	--white-extra: #fff;
+
+	--fuchsia: #f0f;
+	--cinnabar: #e50000;
+	--canary: #ffd700;
+	--chartreuse: #7fff00;
+	--cyan: #00ffff;
+	--verdigris: #00a8a8;
+	--capri: #0077ff;
+	--indigo: #4b0082;
+
+	--color-fg: var(--white);
+	--color-bg: var(--black);
+}

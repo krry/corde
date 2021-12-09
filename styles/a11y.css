@@ -1,0 +1,48 @@
+abbr {
+	cursor: help;
+	text-decoration: dotted underline;
+}
+
+:focus-visible {
+	outline-style: dashed;
+	outline-offset: 6px;
+	outline-color: var(--gold);
+	box-shadow: inset 0 0 0.25em 3px var(--blue), 0 0 0.25em 3px var(--gold);
+	border-radius: var(--bevel);
+}
+
+:placeholder {
+	color: var(--ghost);
+}
+
+:selection {
+	background-color: var(--chartreuse);
+	color: var(--black-extra);
+}
+
+:focus {
+	outline-color: var(--cyan);
+	outline-offset: 3px;
+	-moz-outline-radius: 0.618em;
+	-o-outline-radius: 0.618em;
+	outline-style: dotted;
+	outline-width: 2px;
+}
+
+:placeholder {
+	color: var(--ghost);
+}
+
+::selection {
+	background-color: var(--chartreuse);
+	color: var(--black-extra);
+}
+
+::focus {
+	outline-color: var(--cyan);
+	outline-offset: 3px;
+	-moz-outline-radius: 0.618em;
+	-o-outline-radius: 0.618em;
+	outline-style: dotted;
+	outline-width: 2px;
+}

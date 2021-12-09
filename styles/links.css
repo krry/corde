@@ -1,0 +1,38 @@
+a:link {
+  color: blue;
+  text-decoration: solid dotted;
+  text-decoration-color: transparent;
+  text-underline-offset: 1px;
+  text-decoration-thickness: 0px;
+  transition: all 309ms cubic-bezier(0.39, 0.575, 0.565, 1);
+  --font-casual: 0;
+  --font-weight: inherit;
+  --font-cursive: 1;
+}
+
+a:link:hover {
+  --font-weight: 654;
+  --font-casual: 1;
+  --font-mono: 0;
+  color: lightblue;
+  text-decoration-style: solid;
+  text-decoration-color: inherit;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 2px;
+}
+
+a:visited {
+  color: violet;
+}
+
+a:visited:hover {
+  color: lavender;
+}
+
+a:active {
+  color: red;
+}
+
+a:visited:active {
+  color: salmon;
+}

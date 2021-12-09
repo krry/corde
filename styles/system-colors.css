@@ -1,0 +1,78 @@
+/* SYSTEM COLORS - from the W3C spec
+ *
+ * https://www.w3.org/TR/css-color-4/#typedef-system-color
+ * The <system-color> keywords are defined as follows:
+ *
+ * Canvas
+ *  Background of application content or documents.
+ * CanvasText
+ *  Text in application content or documents.
+ * LinkText
+ *  Text in non-active, non-visited links. For light backgrounds, traditionally blue.
+ * VisitedText
+ *  Text in visited links. For light backgrounds, traditionally purple.
+ * ActiveText
+ *  Text in active links. For light backgrounds, traditionally red.
+ * ButtonFace
+ *  The face background color for push buttons.
+ * ButtonText
+ *  Text on push buttons.
+ * ButtonBorder
+ *  The base border color for push buttons.
+ * Field
+ *  Background of input fields.
+ * FieldText
+ *  Text in input fields.
+ * Highlight
+ *  Background of selected items/text.
+ * HighlightText
+ *  Text of selected items/text.
+ * Mark
+ *  Background of text that has been specially marked (such as by the HTML mark element).
+ * MarkText
+ *  Text that has been specially marked (such as by the HTML mark element).
+ * GrayText
+ *  Disabled text. (Often, but not necessarily, gray.)
+ */
+
+html {
+	background-color: Canvas;
+	color: CanvasText;
+}
+
+a {
+	color: LinkText;
+}
+
+a:visited {
+	color: VisitedText;
+}
+
+a:active {
+	color: ActiveText;
+}
+
+button {
+	background-color: ButtonFace;
+	color: ButtonText;
+	border-color: ButtonBorder;
+}
+
+input {
+	background-color: Field;
+	color: FieldText;
+}
+
+::selection {
+	background-color: Highlight;
+	color: HighlightText;
+}
+
+mark {
+	background-color: Mark;
+	color: MarkText;
+}
+
+*:disabled {
+	color: GrayText;
+}

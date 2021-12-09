@@ -1,0 +1,56 @@
+/**
+		DINKUS
+		usage: <hr class="dinkus fleur"
+*/
+
+:root {
+	--unit: 1rem;
+	--show: #2CFD;
+	--grow: #CF2D;
+	--glow: #FC2D;
+	--know: #F2CD;
+}
+
+hr.divider {
+	width: 80%;
+	color: var(--glow);
+	margin: 1rem auto;
+}
+
+hr.dinkus {
+	border: 0;
+	position: relative;
+	margin: var(--unit) auto;
+	width: 100%;
+	height: var(--unit);
+	line-height: var(--unit);
+	&.spacey {
+		margin: calc(var(--unit) * 3) auto;
+	}
+	&.hefty {
+		--unit: calc(var(--unit) * 3);
+	}
+}
+
+hr.dinkus::after {
+	color: var(--know);
+	display: block;
+	font-size: calc(var(--unit));
+	text-align: center;
+}
+
+.asterism::after {
+	content: '⁂';
+}
+
+.fleur::after {
+	content: '⚜';
+}
+
+.fleur-on::after {
+	content: '𐡸';
+}
+
+.fleur-off::after {
+	content: '𐡷';
+}
