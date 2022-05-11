@@ -17,3 +17,5 @@
 	--color-fg: var(--white);
 	--color-bg: var(--black);
 }
+
+@import './fullsmile.postcss';

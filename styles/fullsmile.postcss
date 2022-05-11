@@ -1,0 +1,235 @@
+:root {
+	--pink: hsl(312 72% 64%);
+	--violet: hsl(265 74% 64%);
+	--indigo: hsl(230 58% 58%);
+	--blue: hsl(191 78% 46%);
+	--blue-lite: hsl(191 88% 76% / 50%);
+	--teal5: hsl(187 100% 41%);
+	--teal4: hsl(184 100% 41%);
+	--teal3: hsl(181 100% 40%);
+	--teal2: hsl(177 100% 41%);
+	--teal: hsl(181 68% 50%);
+	--green3: hsl(174 100% 43%);
+	--green2: hsl(168 85% 48%);
+	--green: hsl(161 79% 57%);
+	--green-lite: hsl(161 89% 87% / 50%);
+	--chartreuse: hsl(120 87% 72%);
+	--yellow: hsl(61 100% 50%);
+	--gold: hsl(49 98% 52%);
+	--amber: hsl(38 92% 55%);
+	--amber-lite: hsl(38 92% 85% / 50%);
+	--orange: hsl(28 97% 65%);
+	--red: hsl(357 96% 69%);
+	--sangria: hsl(349 80% 65%);
+	--sangria-lite: hsl(349 90% 85% / 50%);
+	--fuchsia: hsl(339 82% 67%);
+	--gray100: hsl(181 5% 100%);
+	--gray95: hsl(181 5% 95%);
+	--gray90: hsl(181 5% 90%);
+	--gray80: hsl(181 5% 80%);
+	--gray70: hsl(181 5% 70%);
+	--gray60: hsl(181 5% 60%);
+	--gray50: hsl(181 5% 50%);
+	--gray40: hsl(181 5% 40%);
+	--gray30: hsl(181 5% 30%);
+	--gray20: hsl(181 5% 20%);
+	--gray10: hsl(181 5% 10%);
+	--gray5: hsl(181 5% 5%);
+	--gray0: hsl(181 5% 0%);
+	--black: var(--gray5);
+	--white: var(--gray95);
+	--gray: var(--gray50);
+	--white31: hsla(181 5% 95% / 31%);
+	--white61: hsla(181 5% 95% / 61%);
+	--black61: hsla(181 5% 5% / 61%);
+	--white76: hsla(181 5% 95% / 76%);
+	--black76: hsla(181 5% 5% / 76%);
+	--white92: hsla(181 5% 95% / 92%);
+	--black92: hsla(181 5% 5% / 92%);
+	--whisp: rgb(255 255 255 / 10%);
+	--shade: rgb(0 0 0 / 10%);
+	--clear-light: rgb(255 255 255 / 0%);
+	--clear-dark: rgb(0 0 0 / 0%);
+	--rainbow-gradient: linear-gradient(
+		var(--direction),
+		var(--fuchsia),
+		var(--pink),
+		var(--violet),
+		var(--indigo),
+		var(--blue),
+		var(--teal),
+		var(--green3),
+		var(--green2),
+		var(--green),
+		var(--gold),
+		var(--orange),
+		var(--red),
+		var(--fuchsia)
+	);
+	--radianbow: radial-gradient(
+		var(--red),
+		var(--orange),
+		var(--gold),
+		var(--green),
+		var(--blue),
+		var(--violet),
+		var(--fuchsia)
+	);
+	--rainbowBrite: linear-gradient(
+		16deg,
+		hsla(312, 96%, 96%, 0.96),
+		hsla(265, 96%, 96%, 0.96),
+		hsla(230, 96%, 96%, 0.96),
+		hsla(191, 96%, 96%, 0.96),
+		hsla(187, 96%, 96%, 0.96),
+		hsla(184, 96%, 96%, 0.96),
+		hsla(181, 96%, 96%, 0.96),
+		hsla(177, 96%, 96%, 0.96),
+		hsla(181, 96%, 96%, 0.96),
+		hsla(174, 96%, 96%, 0.96),
+		hsla(168, 96%, 96%, 0.96),
+		hsla(161, 96%, 96%, 0.96),
+		hsla(120, 96%, 96%, 0.96),
+		hsla(61, 96%, 96%, 0.96),
+		hsla(49, 96%, 96%, 0.96),
+		hsla(38, 96%, 96%, 0.96),
+		hsla(28, 96%, 96%, 0.96),
+		hsla(357, 96%, 96%, 0.96),
+		hsla(349, 96%, 96%, 0.96),
+		hsla(339, 96%, 96%, 0.96)
+	);
+	--rainbowSlick: linear-gradient(
+		16deg,
+		hsla(312, 36%, 8%, 0.88),
+		hsla(265, 36%, 8%, 0.88),
+		hsla(230, 36%, 8%, 0.88),
+		hsla(191, 36%, 8%, 0.88),
+		hsla(187, 36%, 8%, 0.88),
+		hsla(184, 36%, 8%, 0.88),
+		hsla(181, 36%, 8%, 0.88),
+		hsla(177, 36%, 8%, 0.88),
+		hsla(181, 36%, 8%, 0.88),
+		hsla(174, 36%, 8%, 0.88),
+		hsla(168, 36%, 8%, 0.88),
+		hsla(161, 36%, 8%, 0.88),
+		hsla(120, 36%, 8%, 0.88),
+		hsla(61, 36%, 8%, 0.88),
+		hsla(49, 36%, 8%, 0.88),
+		hsla(38, 36%, 8%, 0.88),
+		hsla(28, 36%, 8%, 0.88),
+		hsla(357, 36%, 8%, 0.88),
+		hsla(349, 36%, 8%, 0.88),
+		hsla(339, 36%, 8%, 0.88)
+	);
+	--discord-blurple: hsla(235, 83%, 59%, 1);
+	--google-blue: hsla(214, 82%, 51%, 1);
+	--github-black: hsla(213, 13%, 16%, 1);
+	--btn-color: var(--fuchsia);
+	--btn-hover-color: var(--pink);
+	--drop-shadow: 1px 3px 3px 0px var(--theme-colors-shade);
+	--lil-shadow: 0 0 0.1618em var(--theme-colors-shade);
+	--shadow: 0 0 1em 0.309em var(--theme-colors-shade);
+	--shaglow: 0 0 1em 0.309em var(--glow);
+	--big-shadow: -1.618em 0 2.168em 0.618em var(--theme-colors-shade);
+	--focushadow: 0 0 0 1px var(--theme-colors-accent),
+		0 0 0 3px var(--theme-colors-haze);
+	--border: solid var(--bexel) var(--pencil);
+
+	/* shorthand for theme vars */
+	--bg: var(--theme-colors-bg);
+	--fg: var(--theme-colors-fg);
+	--link: var(--theme-colors-link);
+	--accent: var(--theme-colors-accent);
+	--primary: var(--theme-colors-primary);
+	--text: var(--theme-colors-text);
+	--glow: var(--theme-colors-glow);
+	--clear: var(--theme-colors-clear);
+	--shade: var(--theme-colors-shade);
+	--cloud: var(--theme-colors-cloud);
+	--cloud2: var(--theme-colors-cloud2);
+	--cloud3: var(--theme-colors-cloud3);
+	--smoke: var(--theme-colors-smoke);
+	--smoke2: var(--theme-colors-smoke2);
+	--smoke3: var(--theme-colors-smoke3);
+	--haze: var(--theme-colors-haze);
+	--pencil: var(--theme-colors-pencil);
+	--drawer-bg: var(--theme-drawer-bg);
+
+	/* w3c color scheme responsivity */
+	@supports (color-scheme: light dark) and (background-color: Canvas) and
+		(color: CanvasText) {
+		--c-bg: Canvas;
+		--c-text: CanvasText;
+		color-scheme: light dark;
+	}
+}
+
+[theme='dark'] {
+	--pink: hsl(312 72% 69%);
+	--violet: hsl(265 74% 69%);
+	--indigo: hsl(230 78% 69%);
+	--blue-lite: hsl(191 78% 31% / 50%);
+	--blue: hsl(191 78% 61%);
+	--teal5: hsl(187 80% 56%);
+	--teal4: hsl(184 80% 56%);
+	--teal3: hsl(181 80% 55%);
+	--teal2: hsl(177 80% 56%);
+	--teal: hsl(181 78% 55%);
+	--green3: hsl(174 80% 57%);
+	--green2: hsl(168 85% 60%);
+	--green-lite: hsl(161 79% 32% / 50%);
+	--green: hsl(161 79% 62%);
+	--chartreuse: hsl(120 95% 78%);
+	--yellow: hsl(61 80% 67%);
+	--gold: hsl(49 78% 67%);
+	--amber-lite: hsl(38 82% 35% / 50%);
+	--amber: hsl(38 82% 65%);
+	--orange: hsl(28 80% 69%);
+	--red: hsl(357 86% 75%);
+	--sangria: hsl(349 80% 72%);
+	--sangria-lite: hsl(349 82% 42% / 50%);
+	--fuchsia: hsl(339 82% 72%);
+}
+
+[theme='monster'] {
+	--pink: hsl(312 72% 34%);
+	--violet: hsl(265 74% 34%);
+	--indigo: hsl(230 78% 34%);
+	--blue: hsl(191 78% 26%);
+	--teal5: hsl(187 80% 21%);
+	--teal4: hsl(184 80% 21%);
+	--teal3: hsl(181 80% 20%);
+	--teal2: hsl(177 80% 21%);
+	--teal: hsl(181 78% 20%);
+	--green3: hsl(174 80% 23%);
+	--green2: hsl(168 85% 25%);
+	--green: hsl(161 79% 27%);
+	--yellow: hsl(61 80% 32%);
+	--gold: hsl(49 78% 32%);
+	--amber: hsl(38 82% 30%);
+	--orange: hsl(28 80% 35%);
+	--red: hsl(357 86% 39%);
+	--fuchsia: hsl(339 82% 37%);
+}
+
+[theme='grey'] {
+	--pink: black;
+	--violet: black;
+	--indigo: black;
+	--blue: black;
+	--teal5: black;
+	--teal4: black;
+	--teal3: black;
+	--teal2: black;
+	--teal: black;
+	--green3: black;
+	--green2: black;
+	--green: black;
+	--yellow: black;
+	--gold: black;
+	--amber: black;
+	--orange: black;
+	--red: black;
+	--fuchsia: black;
+	--drawerBg: var(--rainbowBrite);
+}

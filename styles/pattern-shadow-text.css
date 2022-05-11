@@ -1,0 +1,31 @@
+/** Pattern Shadow Text
+ *
+ *  USAGE
+ *  <h1 class="pattern-shadow" data-text="Hep cats love to polka">Hep cats love to polka</h1>
+ *
+ */
+
+.pattern-shadow {
+	--patternColor: #aa85ba;
+	margin-bottom: 1rem;
+	position: relative;
+	z-index: 1;
+}
+
+.pattern-shadow:after {
+	content: attr(data-text); // this is key
+	position: absolute;
+	left: 4px;
+	top: 4px;
+	z-index: 0;
+	margin-right: -4px;
+	/* prettier-ignore */
+	background-image: /* this is the sauce */
+		radial-gradient(var(--patternColor) 0%, var(--patternColor) 60%, transparent 60%);
+	background-size: 4px 4px;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	z-index: -5;
+	display: block;
+	text-shadow: none;
+}
